@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "download": "https://github.com/kefircfw/nx-firmware/releases/download/{release}/{name}",
+ "manifest": "https://raw.githubusercontent.com/kefircfw/nx-firmware/main/manifests/{version}.json",
+ "versions": [
+  {
+   "version": "1.0.0",
+   "nca_count": 167,
+   "size": 252006912
+  }
+ ]
+}
