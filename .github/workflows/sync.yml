@@ -1,0 +1,75 @@
+name: sync
+
+# Adds every firmware version from THZoria/NX_Firmware that is not in the store yet:
+# new NCAs go to the release fw-<version>, the manifest and index.json are committed.
+# A run handles at most `max_versions`; when more are left it starts the next run itself.
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+    inputs:
+      max_versions:
+        description: 'Versions per run'
+        default: '8'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      GH_TOKEN: ${{ github.token }}
+      MAX: ${{ inputs.max_versions || '8' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find new versions
+        run: |
+          gh api --paginate "repos/THZoria/NX_Firmware/releases?per_page=100" --jq '.[]' | jq -s . > /tmp/src.json
+          python3 tools/fwstore.py pending --source-json /tmp/src.json > /tmp/pending.txt
+          echo "pending: $(grep -c . /tmp/pending.txt || true)"
+          head -n "$MAX" /tmp/pending.txt
+
+      - name: Add them
+        run: |
+          set -euo pipefail
+          git config user.name 'nx-firmware bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          n=0
+          while read -r v; do
+            [ -z "$v" ] && continue
+            [ "$n" -ge "$MAX" ] && break
+            echo "::group::$v"
+            rm -rf /tmp/dl && mkdir -p /tmp/dl
+            gh release download "$v" -R THZoria/NX_Firmware -p '*.zip' -D /tmp/dl
+            zip=$(ls /tmp/dl/*.zip | head -1)
+            python3 tools/fwstore.py ingest "$v" "$zip" > /tmp/new.txt
+            rm -rf /tmp/dl
+            echo "new NCAs: $(grep -c . /tmp/new.txt || true)"
+            # a run that died half-way may have left a partial release
+            gh release delete "fw-$v" --yes --cleanup-tag 2>/dev/null || true
+            if [ -s /tmp/new.txt ]; then
+              gh release create "fw-$v" --latest=false --title "Firmware $v" \
+                --notes "NCAs that first appear in $v. Full list: manifests/$v.json"
+              xargs -a /tmp/new.txt -n 40 gh release upload "fw-$v" --clobber
+            fi
+            rm -rf .upload
+            git add manifests index.json
+            git commit -q -m "Add firmware $v"
+            git push -q
+            n=$((n + 1))
+            echo "::endgroup::"
+          done < /tmp/pending.txt
+          left=$(( $(grep -c . /tmp/pending.txt || true) - n ))
+          echo "left: $left"
+          if [ "$left" -gt 0 ]; then
+            gh workflow run sync.yml -f max_versions="$MAX"
+          fi
