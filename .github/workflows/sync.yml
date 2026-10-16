@@ -56,6 +56,16 @@ jobs:
             echo "new NCAs: $(grep -c . /tmp/new.txt || true)"
             # a run that died half-way may have left a partial release
             gh release delete "fw-$v" --yes --cleanup-tag 2>/dev/null || true
+            # each asset is one API call; the job token has ~1000 an hour. Wait for the reset
+            # instead of failing half-way (2026-10-16: fw-16.1.0 hit "API rate limit exceeded").
+            need=$(( $(grep -c . /tmp/new.txt || true) + 30 ))
+            left_calls=$(gh api rate_limit --jq .resources.core.remaining)
+            if [ "$left_calls" -lt "$need" ]; then
+              reset=$(gh api rate_limit --jq .resources.core.reset)
+              wait=$(( reset - $(date +%s) + 30 ))
+              echo "rate limit: $left_calls left, need $need; waiting ${wait}s"
+              [ "$wait" -gt 0 ] && sleep "$wait"
+            fi
             if [ -s /tmp/new.txt ]; then
               gh release create "fw-$v" --latest=false --title "Firmware $v" \
                 --notes "NCAs that first appear in $v. Full list: manifests/$v.json"
