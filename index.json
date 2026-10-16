@@ -4,6 +4,11 @@
  "manifest": "https://raw.githubusercontent.com/kefircfw/nx-firmware/main/manifests/{version}.json",
  "versions": [
   {
+   "version": "13.1.0",
+   "nca_count": 223,
+   "size": 335664640
+  },
+  {
    "version": "13.0.0",
    "nca_count": 223,
    "size": 335297024
