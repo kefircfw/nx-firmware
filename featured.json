@@ -1,0 +1,6 @@
+{
+ "comment": "Firmware versions Kefir Hub shows in its Updater next to the ones in nx-links. Any version of this store can be installed; list here only the ones users should see. Edit this file to change the list.",
+ "firmware": [
+  "23.0.1"
+ ]
+}
