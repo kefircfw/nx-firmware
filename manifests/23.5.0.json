@@ -1,0 +1,1437 @@
+{
+ "version": "23.5.0",
+ "source": "THZoria/NX_Firmware@23.5.0",
+ "nca_count": 238,
+ "size": 340438016,
+ "new_in_this_version": 67,
+ "ncas": [
+  {
+   "name": "00e7f53ae3ee4d6fd915b1ae26fbd1be.cnmt.nca",
+   "size": 3584,
+   "sha256": "00e7f53ae3ee4d6fd915b1ae26fbd1be7efd7f979fa90be6c4395ab00c360ac5",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "015531c2279f834e48500eb0c2a5f8c1.cnmt.nca",
+   "size": 3584,
+   "sha256": "015531c2279f834e48500eb0c2a5f8c135a43e12db7136143869907bc49c9b63",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "015da7d509f1505f44e65240d22216be.cnmt.nca",
+   "size": 3584,
+   "sha256": "015da7d509f1505f44e65240d22216be9e00cd89299e51740aabaca3335df315",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "022e881c913a5c904d4652a5b71b8425.cnmt.nca",
+   "size": 3584,
+   "sha256": "022e881c913a5c904d4652a5b71b84256eed8896586d67c741015db194764f19",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "02a6b2d4d75db3370f64a88855682bef.cnmt.nca",
+   "size": 3584,
+   "sha256": "02a6b2d4d75db3370f64a88855682befeda0b1cd2e8d94f6fa5c527fa87732f3",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "02d227be9dd2682bc52551bd10cbe992.nca",
+   "size": 5566464,
+   "sha256": "02d227be9dd2682bc52551bd10cbe9923b577258227380885c8c77c3fa842275",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "03ec860c6ac6c17f5d90562700e30e7f.nca",
+   "size": 186880,
+   "sha256": "03ec860c6ac6c17f5d90562700e30e7fb235f2444e8d3ca8df910ee922988dd5",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "04feb0345448f313167d6c454809f844.cnmt.nca",
+   "size": 3584,
+   "sha256": "04feb0345448f313167d6c454809f844eb73e5f758cea0073591701920563d66",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "0671113d5748913b84d94449dbfba4a1.cnmt.nca",
+   "size": 3584,
+   "sha256": "0671113d5748913b84d94449dbfba4a12ea3b392c492d744b339ac152c944e7d",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "068050547d51676e43f1dfbdb241c0c1.cnmt.nca",
+   "size": 3584,
+   "sha256": "068050547d51676e43f1dfbdb241c0c123f6b74ded1a9e54c1ba41ced4933c3a",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "068a915f2e8d9b5310bc11d62840166e.cnmt.nca",
+   "size": 3584,
+   "sha256": "068a915f2e8d9b5310bc11d62840166e26cf64bdb486bc1d6d825f20cbd771f9",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "06b33165bad446736a8f8918f9b678e5.nca",
+   "size": 660480,
+   "sha256": "06b33165bad446736a8f8918f9b678e592d53bd90aa5e4884f7da7bc8f267ea9",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "0bb5d66fd0fc610f4c3d70d6b8f69633.cnmt.nca",
+   "size": 3584,
+   "sha256": "0bb5d66fd0fc610f4c3d70d6b8f696332349443f456feab2173b1c265edabd6e",
+   "release": "fw-21.0.0"
+  },
+  {
+   "name": "0bd2490ae110b1d013dd73cb289bd1ce.nca",
+   "size": 248320,
+   "sha256": "0bd2490ae110b1d013dd73cb289bd1ce95ecb08a0eb7a0f3b81f1de8f9fd2c44",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "0cf95a44b4b0b70c6d37477909f3c529.cnmt.nca",
+   "size": 3584,
+   "sha256": "0cf95a44b4b0b70c6d37477909f3c529b02afb0692064e640d428611eb3c1d29",
+   "release": "fw-11.0.1r"
+  },
+  {
+   "name": "0d6522396b8721c643c1d15e56438912.cnmt.nca",
+   "size": 3584,
+   "sha256": "0d6522396b8721c643c1d15e5643891255f4f96b1619cda78771fd973edc6f47",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "0e9c81ff8b533a3cfebed187ad29ea1b.cnmt.nca",
+   "size": 3584,
+   "sha256": "0e9c81ff8b533a3cfebed187ad29ea1b85f7e63d9b98f7b0d6528c4390f36437",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "0f4193e43f59a7ac33aada3ef4576625.nca",
+   "size": 1298432,
+   "sha256": "0f4193e43f59a7ac33aada3ef4576625e5af54a5b44df8dffb948a0eec99648c",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "0fcc9176e439cc5c1ac1cb09966d6795.nca",
+   "size": 360448,
+   "sha256": "0fcc9176e439cc5c1ac1cb09966d6795f7ec4fb490ce2c85650e4b1aa0fcd5b8",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "10807cc70767137a5e26e277e430e28d.nca",
+   "size": 17372160,
+   "sha256": "10807cc70767137a5e26e277e430e28d43bf1c088786db2b20fb817d16c9ecf1",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "10c233403c349ee0098d8a59cdf5e329.nca",
+   "size": 3859456,
+   "sha256": "10c233403c349ee0098d8a59cdf5e329ef7c8573940c78948f8291c6d460e1c9",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "1200b746290a1da555debfe56f194f25.nca",
+   "size": 212480,
+   "sha256": "1200b746290a1da555debfe56f194f2555fc6ec717bc5e0dba15c338f1b92763",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "12c4e06b758101746ca0063080a7a884.cnmt.nca",
+   "size": 3584,
+   "sha256": "12c4e06b758101746ca0063080a7a884d80ad0882f51f10c7eaa26a9ff7f4259",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "13e72855720adedf9ebdcf88a22f1e9d.nca",
+   "size": 943616,
+   "sha256": "13e72855720adedf9ebdcf88a22f1e9dd27cc5199a20f11dd81bd38988fe2b14",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "148526d4623146e0d1a4ca1c797eddac.nca",
+   "size": 197632,
+   "sha256": "148526d4623146e0d1a4ca1c797eddac35a366b7462af49f422d39d4e12f10a7",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "14e378a8b3b2374e3fbeb60185d56457.cnmt.nca",
+   "size": 3584,
+   "sha256": "14e378a8b3b2374e3fbeb60185d56457ebf929729cd8e171b958ef9184067c9f",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "150ad51cfa8848789713706a384b548d.nca",
+   "size": 555008,
+   "sha256": "150ad51cfa8848789713706a384b548d875db26b0a3a6aaa7001e111376483bf",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "16dc2da330952377f1352832606308d6.nca",
+   "size": 3413504,
+   "sha256": "16dc2da330952377f1352832606308d62b5286bdb6cabe96d4a8ea0e11cf6507",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "17c96417dc19fc10592629c6b700731e.cnmt.nca",
+   "size": 3584,
+   "sha256": "17c96417dc19fc10592629c6b700731e2136fb2718a621b76e681e062b5d6687",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "183166177cd0bf2a516c61a2e3293238.nca",
+   "size": 852992,
+   "sha256": "183166177cd0bf2a516c61a2e32932389b332c447a7048fd25d868420c8f6f58",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "193bc2a10f95f7fa1f7497ba6e35dd8a.cnmt.nca",
+   "size": 3584,
+   "sha256": "193bc2a10f95f7fa1f7497ba6e35dd8a829d7aeac018d01ae816b87a29e4db03",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "19ec3c187597d26e205fd6171f7f0bc8.nca",
+   "size": 1281536,
+   "sha256": "19ec3c187597d26e205fd6171f7f0bc8a3017773e8423f69123034ef991c31c0",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "1a571d6b205f88708f9283f7cdf09816.nca",
+   "size": 88064,
+   "sha256": "1a571d6b205f88708f9283f7cdf0981627aba9eb9951120017bb61bb044b4bf6",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "1ae33903fe0eb09b74615fb40f8bfead.cnmt.nca",
+   "size": 3584,
+   "sha256": "1ae33903fe0eb09b74615fb40f8bfeadce43c47e53f4f6c0e9216953f8e0bca5",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "1c9af21fb8557f2fac1300ecb9012b48.nca",
+   "size": 90624,
+   "sha256": "1c9af21fb8557f2fac1300ecb9012b481aabf6cfef9f985562a3fb4252bc7b7e",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "1f1b160db410505a362eb52beadb74e3.cnmt.nca",
+   "size": 3584,
+   "sha256": "1f1b160db410505a362eb52beadb74e30760bd56f4d4eeb917a129df23ed43cb",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "1f2cfea82e1cc1f46eb651c9ca20534f.nca",
+   "size": 18210304,
+   "sha256": "1f2cfea82e1cc1f46eb651c9ca20534f74d657083244996704a523858c6c5aa7",
+   "release": "fw-16.1.0"
+  },
+  {
+   "name": "20c2c361c675b3aa70f55e5b8a4e0bf5.nca",
+   "size": 35840,
+   "sha256": "20c2c361c675b3aa70f55e5b8a4e0bf5c3a21968e6a75906a5bea1b88a540275",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "21c1c05236c1a4bfe3a3cf093101c3c1.cnmt.nca",
+   "size": 3584,
+   "sha256": "21c1c05236c1a4bfe3a3cf093101c3c1760b3e12da3bc3796212cccc9b3d54c8",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "23cce2ea69e2bd896aed33508ac2c2d9.nca",
+   "size": 880128,
+   "sha256": "23cce2ea69e2bd896aed33508ac2c2d9968b5f2aa5269c553ffdee8ae43aa6f1",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "23f87c289c6c5db25d2fdf2268a0baa6.cnmt.nca",
+   "size": 3584,
+   "sha256": "23f87c289c6c5db25d2fdf2268a0baa6634520d3d3ce93c694c8e214d3f0d39c",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "24c7e5954a97619c970ee0d6bc639931.nca",
+   "size": 3758080,
+   "sha256": "24c7e5954a97619c970ee0d6bc6399315db2fc43bbc5242f3d975eafc2ec9fd8",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "262a579f6ebf4681ebda1010a46299a1.nca",
+   "size": 165376,
+   "sha256": "262a579f6ebf4681ebda1010a46299a1c153e504dad15cbea45008a137f4bb39",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "268a19bf43f2973a4141bbbfb20460bf.nca",
+   "size": 1167872,
+   "sha256": "268a19bf43f2973a4141bbbfb20460bf2435de9ed1bba6ff36f138c424c5b867",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "28b834870c5f9a87344d182b4914f03d.nca",
+   "size": 35840,
+   "sha256": "28b834870c5f9a87344d182b4914f03db7b04bc6984f12a4f25915960331c564",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "299bcd1b11e8fbd8b2a784f5d2f17929.cnmt.nca",
+   "size": 3584,
+   "sha256": "299bcd1b11e8fbd8b2a784f5d2f179295e60f330eedc21f5dda3af4c5c115e7c",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "2ae702fda04da8c5b230708c45b300c8.cnmt.nca",
+   "size": 3584,
+   "sha256": "2ae702fda04da8c5b230708c45b300c859b726088509bec2dc4cd60b62837c52",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "2b6f6359b73f29ceca12756cb9663450.cnmt.nca",
+   "size": 3584,
+   "sha256": "2b6f6359b73f29ceca12756cb9663450c068b1457ead7c776ccb74eb4c04b565",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "2d18f84796fd870b68041c22f771bc33.cnmt.nca",
+   "size": 5632,
+   "sha256": "2d18f84796fd870b68041c22f771bc3304eeeed37e94c2e0a03449774e16a4d3",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "2e0ec33c7059fea7780badcb852ca90a.cnmt.nca",
+   "size": 3584,
+   "sha256": "2e0ec33c7059fea7780badcb852ca90a8195bef1e6d9f114ce483c396041d137",
+   "release": "fw-6.2.0"
+  },
+  {
+   "name": "2f40a38aea3bb4426beb4cff2c190073.nca",
+   "size": 881664,
+   "sha256": "2f40a38aea3bb4426beb4cff2c19007338bb9e729bf9633117852171f8f8d5ac",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "2ffc30ddfdc436c7d8fe2244a985ec1f.nca",
+   "size": 5858816,
+   "sha256": "2ffc30ddfdc436c7d8fe2244a985ec1feb4f5209b9b075b7c489cfc4b5403f24",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "302e8f125a12b674eb701e925535e206.cnmt.nca",
+   "size": 3584,
+   "sha256": "302e8f125a12b674eb701e925535e206c875365a8fb08de3b91e3b57449a2fb8",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "31adc4a073028a322038765b781510e0.nca",
+   "size": 754688,
+   "sha256": "31adc4a073028a322038765b781510e04ef2675f98298331d3e86c63df9a6db3",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "334d7a40bd0b18bc363c966e19f8bf1b.nca",
+   "size": 86016,
+   "sha256": "334d7a40bd0b18bc363c966e19f8bf1bf91cbd1c177becabc462bd50f4217565",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "335fa63864b1b487fac5a911a4793d80.nca",
+   "size": 4357120,
+   "sha256": "335fa63864b1b487fac5a911a4793d8091df0da2788797338f7a44e4d1277d4c",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "35861e61742f448461ccaf675587a9b0.cnmt.nca",
+   "size": 3584,
+   "sha256": "35861e61742f448461ccaf675587a9b0352f8438365656fc34662cb1acc1b331",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "361bac511dc03a8f2b9ededee68d8d54.cnmt.nca",
+   "size": 3584,
+   "sha256": "361bac511dc03a8f2b9ededee68d8d5429314e1f9bf4f58ef51ba67c0df50fa8",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "38ac7257e3e822af9d4eb6f22d778826.cnmt.nca",
+   "size": 3584,
+   "sha256": "38ac7257e3e822af9d4eb6f22d778826790585767211b19da344b01a39d15db8",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "390a1e56f44cdf3ef6724fd01ea2f41c.cnmt.nca",
+   "size": 3584,
+   "sha256": "390a1e56f44cdf3ef6724fd01ea2f41cdd5b10379d7d34d3dc23b3304a6f9159",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "395e62389e258582f06ba8b387e9f800.cnmt.nca",
+   "size": 3584,
+   "sha256": "395e62389e258582f06ba8b387e9f80029c63278ad93a0e4f009d2537ca127b0",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "39d58df75af1e2a7b5c744ad0a1240fe.nca",
+   "size": 1460736,
+   "sha256": "39d58df75af1e2a7b5c744ad0a1240fee9e08bfeee9c27ac437d3faef423ce9e",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "3aa8d007e9076c0f79433e0a98179e6c.cnmt.nca",
+   "size": 3584,
+   "sha256": "3aa8d007e9076c0f79433e0a98179e6cc078289c9ef1e2943a324342f44bb17c",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "3d0575bbace6767a74ddf6a578baa5da.nca",
+   "size": 436736,
+   "sha256": "3d0575bbace6767a74ddf6a578baa5da43d0c71e35349249dae60d2423e25c93",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "3e99f0d2744c10c34f6e0e4a669d3295.cnmt.nca",
+   "size": 3584,
+   "sha256": "3e99f0d2744c10c34f6e0e4a669d32958511a8b6d316b077ea3f2f000ee2065b",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "3f74e002e766e452b230e561ada88af4.cnmt.nca",
+   "size": 3584,
+   "sha256": "3f74e002e766e452b230e561ada88af4a2666bad4dfecca54557881eee52bd34",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "4042009cb7119f218204cbcafddf89a4.cnmt.nca",
+   "size": 3584,
+   "sha256": "4042009cb7119f218204cbcafddf89a4209870b9ffe4f4a1f786536c591b2366",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "4121a8a4c1aefbe65aec5e2f37135221.nca",
+   "size": 357376,
+   "sha256": "4121a8a4c1aefbe65aec5e2f37135221381f73dee3c7525408e3380fe46b03be",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "41aa25ea075597f3773010390eb40554.cnmt.nca",
+   "size": 3584,
+   "sha256": "41aa25ea075597f3773010390eb405541d89ffc366d335a0f8f94d8c37300480",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "4297729dfb8bd65f592aa0db83121ff2.cnmt.nca",
+   "size": 3584,
+   "sha256": "4297729dfb8bd65f592aa0db83121ff28ee4fc5993ceaa45afb91f1e78eb30c5",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "42e8c03ecfed689dedd9c091b9f7c253.cnmt.nca",
+   "size": 3584,
+   "sha256": "42e8c03ecfed689dedd9c091b9f7c2538b5e00ea790cdde498c01d7ae9e50ae4",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "44e2f6c262ba7b1bc7b2a516aecadf3c.cnmt.nca",
+   "size": 3584,
+   "sha256": "44e2f6c262ba7b1bc7b2a516aecadf3c5d7a65206d5516d063f29354eb86a32e",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "46e669b141a77159a8748f6da8894d0b.nca",
+   "size": 2119168,
+   "sha256": "46e669b141a77159a8748f6da8894d0b397673f823aea3ec99894db6be424341",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "476497ba3b813fb4118893700cbe8f2c.nca",
+   "size": 91136,
+   "sha256": "476497ba3b813fb4118893700cbe8f2c88dec2c8b555f98f17007ff95d48905d",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "481143a8fbe97368cbcec06b9e25bcf7.cnmt.nca",
+   "size": 3584,
+   "sha256": "481143a8fbe97368cbcec06b9e25bcf7e9be8fb49b697ab5aeb1bbe8e0c2d749",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "483ec0c7f88cb167c045533ad60f94b6.nca",
+   "size": 7110144,
+   "sha256": "483ec0c7f88cb167c045533ad60f94b61dff476475696abf968faa3e9a4c427c",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "498d9e585c6ea8e39707e868fda74579.cnmt.nca",
+   "size": 3584,
+   "sha256": "498d9e585c6ea8e39707e868fda74579306d2110a27e0867d2470a472edc6aba",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "4cbc2f75b9e56983a87770c7be5c63cc.nca",
+   "size": 35840,
+   "sha256": "4cbc2f75b9e56983a87770c7be5c63cce9eef4607bacbd775d8164cf92decd68",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "4d9776c9950ee88ad8d81c4484ab5a2f.nca",
+   "size": 4185600,
+   "sha256": "4d9776c9950ee88ad8d81c4484ab5a2f05afe83d55543c989a0db3fc8b526ad0",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "516d6d6ff620f24b839451015e3f278c.nca",
+   "size": 259584,
+   "sha256": "516d6d6ff620f24b839451015e3f278c1a90e5352b4023407a195a3daded6872",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "51793527a6f60b09ca044d5196d3236f.nca",
+   "size": 3498496,
+   "sha256": "51793527a6f60b09ca044d5196d3236f7637962a05f239b21343e064713236f8",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "5500fa7e04f1509f163c0fa57b898ddb.nca",
+   "size": 169984,
+   "sha256": "5500fa7e04f1509f163c0fa57b898ddbaec3b75610d1e5cfd553212fbfeca403",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "558d28de8fad94ed979634d5b0fc3ff5.nca",
+   "size": 55808,
+   "sha256": "558d28de8fad94ed979634d5b0fc3ff535d2498e420c5f87c2bf44774e9482d2",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "55c9089d8910ac96a868dc81bd52bcac.nca",
+   "size": 1617408,
+   "sha256": "55c9089d8910ac96a868dc81bd52bcaca6ba4fda100a06b7bbc4d44055c7c294",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "57d1febb79dbf4cda37a01e4fbb18a51.cnmt.nca",
+   "size": 3584,
+   "sha256": "57d1febb79dbf4cda37a01e4fbb18a517f39148275bf5a95925abb1497828da7",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "5811004c289ec1fb5e9ce9dff63d9ad3.cnmt.nca",
+   "size": 3584,
+   "sha256": "5811004c289ec1fb5e9ce9dff63d9ad37236cbfaf97db19ef8b5ef87251ccf99",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "5825f332de9810a10138bc654d889a73.cnmt.nca",
+   "size": 3584,
+   "sha256": "5825f332de9810a10138bc654d889a73b9e8f01988ece4b525a864f2d0c3287d",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "5a37bf120bfe194f1987ccef5e5f752b.nca",
+   "size": 551424,
+   "sha256": "5a37bf120bfe194f1987ccef5e5f752b4f760cc848fcb2b0a7a1f9472e8b108e",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "5b503b724b2e9e23820735827969ac25.nca",
+   "size": 1892864,
+   "sha256": "5b503b724b2e9e23820735827969ac25d11992b9b2af67de77fe8a4a41a55574",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "5b6f69833be3e6442255a869b89f918c.cnmt.nca",
+   "size": 3584,
+   "sha256": "5b6f69833be3e6442255a869b89f918cc1d51998566a4867e39e4515d91b1b89",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "5dfa2d7f9ce1e6d7df9443d4028b1458.cnmt.nca",
+   "size": 3584,
+   "sha256": "5dfa2d7f9ce1e6d7df9443d4028b14580d0daafd9ac75c60353ad054d3b710d8",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "5f1a820d85afe34cb98e92a5c1a2cc7f.cnmt.nca",
+   "size": 3584,
+   "sha256": "5f1a820d85afe34cb98e92a5c1a2cc7fcac0305c959ccaa826c4839bb34b0bc0",
+   "release": "fw-20.0.0"
+  },
+  {
+   "name": "5fc07a396cdc90a1e172efb90ed56786.nca",
+   "size": 447488,
+   "sha256": "5fc07a396cdc90a1e172efb90ed5678672f6cef7778d34bf57dc4f5e0ec4fd14",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "5fe581c21696d6fc143702918a103709.nca",
+   "size": 86016,
+   "sha256": "5fe581c21696d6fc143702918a103709607b29dbc887bd65ff1a33742d098a1b",
+   "release": "fw-11.0.1r"
+  },
+  {
+   "name": "609324dfdb9b5b664ef990ce63853305.nca",
+   "size": 86016,
+   "sha256": "609324dfdb9b5b664ef990ce638533057a4d5a975cfb307912db3d20fa996b49",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "61685e9d7698430619001f8e1c3b06f4.nca",
+   "size": 4208128,
+   "sha256": "61685e9d7698430619001f8e1c3b06f4c5acc346a5dd44fe502dd347bdd2825b",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "616e071c161b1eda9bbde3db2fbf7bb7.nca",
+   "size": 632320,
+   "sha256": "616e071c161b1eda9bbde3db2fbf7bb7b9aabbf9da385530ace4ec6e6845cbf2",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "617a3300548a555c7679d197b0cea17d.cnmt.nca",
+   "size": 3584,
+   "sha256": "617a3300548a555c7679d197b0cea17dfcc75a457f87a382932b3dd4ea924e60",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "62544327b33a46cc21b0ebb6ab927382.cnmt.nca",
+   "size": 3584,
+   "sha256": "62544327b33a46cc21b0ebb6ab927382c6dce3faf3c67b524fa0d32c2ed7e5ef",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "62615d577b50544fefead0d386459547.cnmt.nca",
+   "size": 3584,
+   "sha256": "62615d577b50544fefead0d386459547f930fc22a1823012d10f80dbe32974bd",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "64d321af6c61633963053fc08121e6f3.nca",
+   "size": 1010688,
+   "sha256": "64d321af6c61633963053fc08121e6f3496142c4503def88b01647d9bd2ed057",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "65aad8545e58b565f568931c4153d28a.cnmt.nca",
+   "size": 3584,
+   "sha256": "65aad8545e58b565f568931c4153d28a17cd408ff09c3939978900e746f2d3c8",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "6634e64a79d54e6569f4b600f96e8eac.nca",
+   "size": 42067456,
+   "sha256": "6634e64a79d54e6569f4b600f96e8eac0a483b0170a8d52ce9b3a012c666fc3d",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "67254473fc56e791b106359434d0efdd.nca",
+   "size": 2111488,
+   "sha256": "67254473fc56e791b106359434d0efdd77bfbb5c1cc6051e30341a99bcf1446b",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "680a190f692308df6ad8aed6307c7b7f.cnmt.nca",
+   "size": 3584,
+   "sha256": "680a190f692308df6ad8aed6307c7b7f6c5abe368a8683b4e62cdcbfb11b66ce",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "68e0e3cdfca91e787d10b8332390a04b.nca",
+   "size": 7009792,
+   "sha256": "68e0e3cdfca91e787d10b8332390a04b54aa09d1334cecb56f31a06d8486f20a",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "69079efd1620d1f75a6ef9847956cd3a.nca",
+   "size": 349184,
+   "sha256": "69079efd1620d1f75a6ef9847956cd3afedecaa3962eae92c11229d061a72d47",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "6b2d68265bbe184fdc395d1a0c042dfa.nca",
+   "size": 443904,
+   "sha256": "6b2d68265bbe184fdc395d1a0c042dfac350adad924ef672564972f9b2955284",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "6de442d643dd607684903fbd22e8e552.nca",
+   "size": 86016,
+   "sha256": "6de442d643dd607684903fbd22e8e552cb3644147f4da39ccd9145f88b755970",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "6de732b9ac29c0bf17bb019896370c94.cnmt.nca",
+   "size": 3584,
+   "sha256": "6de732b9ac29c0bf17bb019896370c94c86e3e37c58ad96a78d8b746c5e9b20e",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "6f481f3e8f863b5895701517ff810662.nca",
+   "size": 551936,
+   "sha256": "6f481f3e8f863b5895701517ff810662d90e36e577508eda239cba8f9d7c6b3e",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "7010af4f35a1d3c5d31b9c45aa67b2b7.nca",
+   "size": 91648,
+   "sha256": "7010af4f35a1d3c5d31b9c45aa67b2b7b785ddcab7ffbbc7bad1c2511c7613f8",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "70ca668de1b12e6ea525148f09ff422b.nca",
+   "size": 2435072,
+   "sha256": "70ca668de1b12e6ea525148f09ff422b4e056a7531970f4974b94b577e7168ee",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "713301ec1e1e6ab18e4587faac0a816e.cnmt.nca",
+   "size": 3584,
+   "sha256": "713301ec1e1e6ab18e4587faac0a816e50608301bbbb6936b8773e036ea9793e",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "718f52a943afdf011700b29d04d76937.nca",
+   "size": 254464,
+   "sha256": "718f52a943afdf011700b29d04d76937ea2388d3a07611d28b4d1272f6ea6a70",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "725c03555e53ad1f72ac98807f6826d9.nca",
+   "size": 148992,
+   "sha256": "725c03555e53ad1f72ac98807f6826d95e5f3d6757eef9d3cfe7d889a57eb309",
+   "release": "fw-16.0.3r2"
+  },
+  {
+   "name": "72d63179bd632710b69edc86b7fae4fc.cnmt.nca",
+   "size": 3584,
+   "sha256": "72d63179bd632710b69edc86b7fae4fc8d9c16f4d7b7c09844f06cfed9b830df",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "744471ddf47fc51b06291043283adca4.nca",
+   "size": 907776,
+   "sha256": "744471ddf47fc51b06291043283adca4669d6775fcb854f978a4252943e99af9",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "74cbc0b6973b6feb803d9dc685853d1e.cnmt.nca",
+   "size": 3584,
+   "sha256": "74cbc0b6973b6feb803d9dc685853d1e844682afdba4c2893363ba630921e2a1",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "751aaa3f586c8e866175af588aebc26e.nca",
+   "size": 77824,
+   "sha256": "751aaa3f586c8e866175af588aebc26e8d3f316857e717627ec4f9eb3f214467",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "7596489c598365b6ac5acc9c0696a6f3.nca",
+   "size": 4276224,
+   "sha256": "7596489c598365b6ac5acc9c0696a6f3910bbba9a907621d891363f8cd0518de",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "75a0e8144d97cf3dc9d05643f7221fb5.cnmt.nca",
+   "size": 3584,
+   "sha256": "75a0e8144d97cf3dc9d05643f7221fb53631cafe26252d38af4da414b4bf82d6",
+   "release": "fw-6.2.0"
+  },
+  {
+   "name": "76fb7e25aa5dc7358be0de7499d1f735.cnmt.nca",
+   "size": 3584,
+   "sha256": "76fb7e25aa5dc7358be0de7499d1f735869728d7890fce36c2196b94ef58376e",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "78fc86e5a2f4d6930f593f91bf77f66c.cnmt.nca",
+   "size": 3584,
+   "sha256": "78fc86e5a2f4d6930f593f91bf77f66c834a8acf0ec6608f95136a47521393dd",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "79d742794129d2c7ebfc63174c155bf5.cnmt.nca",
+   "size": 3584,
+   "sha256": "79d742794129d2c7ebfc63174c155bf5ab1f0fe3565aaa9ae3213cfbfcef9a30",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "7aa27a2dbbc67fd4641ba7869bcbfbc5.nca",
+   "size": 3593728,
+   "sha256": "7aa27a2dbbc67fd4641ba7869bcbfbc55550f4ce230cb9e58e53dcc6e18f0230",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "7b7d558cbdb954036174f45b4461cf45.cnmt.nca",
+   "size": 3584,
+   "sha256": "7b7d558cbdb954036174f45b4461cf45bf1dc1d68126203ccdcddf4526897834",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "7c6a7f1874ecff80d73d67a39e6042bc.cnmt.nca",
+   "size": 3584,
+   "sha256": "7c6a7f1874ecff80d73d67a39e6042bc41d299a1fc926365c8809a15ff9af4ec",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "81af198323a2680f10f6f45d0b310169.cnmt.nca",
+   "size": 3584,
+   "sha256": "81af198323a2680f10f6f45d0b310169bc8b9b0e5116a3804794347272f7f364",
+   "release": "fw-11.0.1r"
+  },
+  {
+   "name": "820a534f1e15037628afd6e24b56a6a0.nca",
+   "size": 576512,
+   "sha256": "820a534f1e15037628afd6e24b56a6a03cdcbcb93ec343b1e902c9d631b26efc",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "825ca085cffe8fc25b697b460ccfbb32.cnmt.nca",
+   "size": 3584,
+   "sha256": "825ca085cffe8fc25b697b460ccfbb32aaa9ef26d59e9f6304f9e2ea08e56c4d",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "82fc5766da4eeb58801d4e919b346982.nca",
+   "size": 3928064,
+   "sha256": "82fc5766da4eeb58801d4e919b346982702ffc32f2b5abbd5500164d2e719500",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "84e3c723c13a36002a7c5192af9886b0.nca",
+   "size": 4313088,
+   "sha256": "84e3c723c13a36002a7c5192af9886b0c08e992b6796a00781839d167df33985",
+   "release": "fw-6.2.0"
+  },
+  {
+   "name": "85dcf709e0a8db1627739663da3c658f.nca",
+   "size": 184832,
+   "sha256": "85dcf709e0a8db1627739663da3c658f464539a3bc43820ab46dc4942369a485",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "8632fdf5cdff1995273e35ef59271836.cnmt.nca",
+   "size": 3584,
+   "sha256": "8632fdf5cdff1995273e35ef592718367641ab79a6929f485d54614c6b47b142",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "87daeece6f5c71d682d4d57fa633ce8f.cnmt.nca",
+   "size": 3584,
+   "sha256": "87daeece6f5c71d682d4d57fa633ce8fd389f9a3cba669d25972a36358a5500e",
+   "release": "fw-20.1.0"
+  },
+  {
+   "name": "87e98615e5907e7ac88f80536fd0b1cf.nca",
+   "size": 798208,
+   "sha256": "87e98615e5907e7ac88f80536fd0b1cfad663e0381bd59f491c7ae1d75d33b9c",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "882887ab27c1d9afadefb3760d8b3357.nca",
+   "size": 86016,
+   "sha256": "882887ab27c1d9afadefb3760d8b3357bf14cee1d1267d3e1419898a70deffd8",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "88e3aa4713e1329930b648d80b1ae56e.cnmt.nca",
+   "size": 3584,
+   "sha256": "88e3aa4713e1329930b648d80b1ae56eb75416a2b0c08645fefc7c885a0d5558",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "897ebd2460c9fbd446d2df08cbf62abb.cnmt.nca",
+   "size": 3584,
+   "sha256": "897ebd2460c9fbd446d2df08cbf62abbf00f710371a1eec0d360634a4ec1e193",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "8f33bc0529a5c4184cc4c02c94469666.cnmt.nca",
+   "size": 3584,
+   "sha256": "8f33bc0529a5c4184cc4c02c9446966629b82c982a227e3468622dd28e9857ab",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "910f249247bfc69d957b72a7ca54ed44.nca",
+   "size": 1312768,
+   "sha256": "910f249247bfc69d957b72a7ca54ed44f1a3caea74a332cd6dc54fa3206bf72e",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "91e93b1037aeee6236fa189820775dc4.nca",
+   "size": 1047040,
+   "sha256": "91e93b1037aeee6236fa189820775dc482b49f21710f21d66086ebc4cdf09040",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "92baaf8d2b1ecf8eec3262c240a38c27.cnmt.nca",
+   "size": 3584,
+   "sha256": "92baaf8d2b1ecf8eec3262c240a38c27d9dc31f75194e7c87daac83fda3acacc",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "94068dbd6eb42b8a235e56e8b364d367.cnmt.nca",
+   "size": 3584,
+   "sha256": "94068dbd6eb42b8a235e56e8b364d36798bcd6dd3a626c888a80b47d53214f03",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "951af6ccc1c8346d799295f78e7b1b2b.nca",
+   "size": 190976,
+   "sha256": "951af6ccc1c8346d799295f78e7b1b2bb0c00fde3b0cc10455eeddce34d2cd52",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "9532ee7bca1f4d2ec5c90e315ec820c7.nca",
+   "size": 396288,
+   "sha256": "9532ee7bca1f4d2ec5c90e315ec820c7e65254ea66e026ec125b9f9133b60c8b",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "9548dbfcbaf1c195c0976ce2a164c374.nca",
+   "size": 4203520,
+   "sha256": "9548dbfcbaf1c195c0976ce2a164c37462ea334ff1dd47803dfc7f8ff4f13eca",
+   "release": "fw-20.1.0"
+  },
+  {
+   "name": "956070ca7ff88336f055abc9bc33dc22.cnmt.nca",
+   "size": 3584,
+   "sha256": "956070ca7ff88336f055abc9bc33dc225bb11bf1a2facd51073ddedb4dcd71db",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "99eda77f7bf243bdc137965cbd80b602.nca",
+   "size": 379904,
+   "sha256": "99eda77f7bf243bdc137965cbd80b602ad409a7fb21b81e16e9f97dc8b483d6f",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "9a678cd06e635d8e5a307a961f85107b.cnmt.nca",
+   "size": 3584,
+   "sha256": "9a678cd06e635d8e5a307a961f85107b79087ef3ba5b1f9d17a8d77b62d58c7e",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "9ad91c364e0e11630922941cbc3defbb.nca",
+   "size": 318976,
+   "sha256": "9ad91c364e0e11630922941cbc3defbbbed532a9cf4ac6d77a1e08fc28fde7c8",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "9ae96224f286b5f739456ed22b2f649d.cnmt.nca",
+   "size": 3584,
+   "sha256": "9ae96224f286b5f739456ed22b2f649d49e9167ee488593e22ff0c494076564d",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "9b5a2b33230fe3c9eb6e1ef598934096.nca",
+   "size": 1096704,
+   "sha256": "9b5a2b33230fe3c9eb6e1ef598934096a5496e3c716e75d1226557a5da1f2fc6",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "9bf6022014166897b511a815783e1ae0.cnmt.nca",
+   "size": 3584,
+   "sha256": "9bf6022014166897b511a815783e1ae0b0b345a2b848e1e63f2800fbae0c0d3e",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "9d7556bb740ee7a90e972a8416e25f10.nca",
+   "size": 108032,
+   "sha256": "9d7556bb740ee7a90e972a8416e25f107744680e1f7cdb4cf103fe780f3a17e9",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "9dd102458c789990eb6903b9ed5fb574.cnmt.nca",
+   "size": 3584,
+   "sha256": "9dd102458c789990eb6903b9ed5fb5742aea24f0c1a2e9f89a8359837c103820",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "9f0888d4b0ec90243f7b695bf9eeb4e8.cnmt.nca",
+   "size": 3584,
+   "sha256": "9f0888d4b0ec90243f7b695bf9eeb4e88ed97c09ae67c3361f14527f73db4e83",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "a09e9b451b0fb1f0231397d34140f47e.cnmt.nca",
+   "size": 3584,
+   "sha256": "a09e9b451b0fb1f0231397d34140f47e3c829c4e0632be1bfab55f5dea348242",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "a1239c7d50d406a44dd83201d970513e.nca",
+   "size": 91136,
+   "sha256": "a1239c7d50d406a44dd83201d970513e8bcb941d573a48af8e863b4c640673cc",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "a2dc9f03ae32440a016ec2a550cff8ce.cnmt.nca",
+   "size": 3584,
+   "sha256": "a2dc9f03ae32440a016ec2a550cff8ce428e56f4b5ed8be1f6271ab62d8cc90d",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "a30d19a0fce5fac66117bca8955683ed.nca",
+   "size": 3665920,
+   "sha256": "a30d19a0fce5fac66117bca8955683ed17dbf47967039c5d95a3359a0d074597",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "a59b200b8d2fa9f2064f2c8a28305dc4.cnmt.nca",
+   "size": 3584,
+   "sha256": "a59b200b8d2fa9f2064f2c8a28305dc4b60f2c184fbb08bc03c5fc63e534c497",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "a62108db6726a3d1b0a21718af5d10a4.nca",
+   "size": 270848,
+   "sha256": "a62108db6726a3d1b0a21718af5d10a4cba4cb80b0c9521f0f7c8ea7b8d485fb",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "a6ee308fc8401a65a814e18488518f6c.cnmt.nca",
+   "size": 3584,
+   "sha256": "a6ee308fc8401a65a814e18488518f6c76dc9dbf6e37df904da466f97643789c",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "a96e8996c41c05e3199dcfdadc99fe34.cnmt.nca",
+   "size": 3584,
+   "sha256": "a96e8996c41c05e3199dcfdadc99fe34a9135f398dbaad19e598c44b9cf85f75",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "a9d3dfa376905271081adbabb4257a0d.nca",
+   "size": 3638784,
+   "sha256": "a9d3dfa376905271081adbabb4257a0de3af9d0f9a62a05572f5e348e7aa2e58",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "aa96bf0ee712d2c8a1797789fec9788d.cnmt.nca",
+   "size": 3584,
+   "sha256": "aa96bf0ee712d2c8a1797789fec9788d5ff9ad211ad8b3c701f223753c119ae9",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "aa9a47bbb58a33731a3b92bc27fcaf9c.nca",
+   "size": 26814976,
+   "sha256": "aa9a47bbb58a33731a3b92bc27fcaf9c97a63054338d0bcfddc19a23b13391a5",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "afc78068f5165699a8c9db2bef43dd1d.nca",
+   "size": 19704832,
+   "sha256": "afc78068f5165699a8c9db2bef43dd1d24e41412e562cd324b22eb6c7c38fa82",
+   "release": "fw-6.2.0"
+  },
+  {
+   "name": "b02b17cc4aee38151e5a9bb4b0d969c4.nca",
+   "size": 91648,
+   "sha256": "b02b17cc4aee38151e5a9bb4b0d969c46e52d75c9bdf091811b827e476d45e16",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "b1e08d9bf9541fb6fdf58c7ba32fb2b3.nca",
+   "size": 8058368,
+   "sha256": "b1e08d9bf9541fb6fdf58c7ba32fb2b371c53716f1fa80262f9f02f94414b083",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "b4d0f5c2f2aa92e4e7305c58c9aa028c.cnmt.nca",
+   "size": 3584,
+   "sha256": "b4d0f5c2f2aa92e4e7305c58c9aa028ce987e480d71ca1925004eb871b6a52e9",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "b837233731cc2c6b3bc384489be7d46a.nca",
+   "size": 6722560,
+   "sha256": "b837233731cc2c6b3bc384489be7d46ab0cc50982747a54bfd7b014e57017812",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "b9152056012c0d292641980788413803.cnmt.nca",
+   "size": 3584,
+   "sha256": "b9152056012c0d29264198078841380346712603269b029edd21cc712954cb43",
+   "release": "fw-16.0.3r2"
+  },
+  {
+   "name": "bd6c93e8ec529b515eb5cc38503dcc23.nca",
+   "size": 569344,
+   "sha256": "bd6c93e8ec529b515eb5cc38503dcc23434942b06462d30f88b7eaf0a8ab76c5",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "be3340e963424d805c8310b06e56c457.cnmt.nca",
+   "size": 3584,
+   "sha256": "be3340e963424d805c8310b06e56c457723dc84f820fb03850df0eff6679cb67",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "bfab8caa278e456f9fc5e1f5fd734feb.nca",
+   "size": 90624,
+   "sha256": "bfab8caa278e456f9fc5e1f5fd734feb8a8cf62b8920e726fcdc3242293bfc64",
+   "release": "fw-20.0.0"
+  },
+  {
+   "name": "c270ae1edf573a0f5126d524c795c194.cnmt.nca",
+   "size": 3584,
+   "sha256": "c270ae1edf573a0f5126d524c795c194c4cf9a822a8b9fb9e8398ae60d244377",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "c3b62c78abbca08a444d451471b7898d.cnmt.nca",
+   "size": 3584,
+   "sha256": "c3b62c78abbca08a444d451471b7898dbaf33b745df09f568a13982912c836a4",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "c58381611258f72aa5d28a55a338eee6.cnmt.nca",
+   "size": 3584,
+   "sha256": "c58381611258f72aa5d28a55a338eee6e52e83877f4dba4f355a25cd439efbe9",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "c5d032046782d4bd6fc4b5c012a4e110.nca",
+   "size": 16103424,
+   "sha256": "c5d032046782d4bd6fc4b5c012a4e110d039bf5a87749da64ba34f0ff18410d7",
+   "release": "fw-21.0.0"
+  },
+  {
+   "name": "c662174a4e815559883c7b8559565b10.cnmt.nca",
+   "size": 3584,
+   "sha256": "c662174a4e815559883c7b8559565b107651df0fcda91833ebbc641604dace3a",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "c76e989ee4451e15c11538585ddf2449.nca",
+   "size": 1010688,
+   "sha256": "c76e989ee4451e15c11538585ddf244947777074e85e3e7446ae9a45a6c156d0",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "ca6e167d711b924ba111ecb24f6a4ae0.nca",
+   "size": 7908864,
+   "sha256": "ca6e167d711b924ba111ecb24f6a4ae0fcacba6049404ad30369e965f7fe0aa8",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "cb52f5f38ddd5088de28af57a555ccef.nca",
+   "size": 35840,
+   "sha256": "cb52f5f38ddd5088de28af57a555ccef87eab76e84a5959bafbe213a22c8cafe",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "cc84f42746477d2c47a1a25241413a06.nca",
+   "size": 881152,
+   "sha256": "cc84f42746477d2c47a1a25241413a06341dc712d7fcdc694144386e470c775b",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "cd6d6e96f36f7cf99f85ddae181c9354.cnmt.nca",
+   "size": 3584,
+   "sha256": "cd6d6e96f36f7cf99f85ddae181c9354b0936a516a20aaf8e721730e94e465e1",
+   "release": "fw-21.0.0"
+  },
+  {
+   "name": "ce8da28da36c34eaf8fc96c647e9f20f.cnmt.nca",
+   "size": 3584,
+   "sha256": "ce8da28da36c34eaf8fc96c647e9f20f4e11e6d800311c0e503327a0332f04b2",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "ce9c00ed1eaccaf7ea3d7b12201496c2.cnmt.nca",
+   "size": 3584,
+   "sha256": "ce9c00ed1eaccaf7ea3d7b12201496c26a666b0b1008190a8a8ee3e1280fedac",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "cea18f43e45e0a123fa7e0353c49fd59.nca",
+   "size": 91136,
+   "sha256": "cea18f43e45e0a123fa7e0353c49fd59cf8d912132beb1d02ea665e4f90c4260",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "d014d39bbef6146f536cecea42b062ca.nca",
+   "size": 6790656,
+   "sha256": "d014d39bbef6146f536cecea42b062caa66b831f18f55918eaebe9b286896f99",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "d159d0cb394d810f1ab5fd8a4134428f.cnmt.nca",
+   "size": 3584,
+   "sha256": "d159d0cb394d810f1ab5fd8a4134428f4bb8e7b6a35812f7a249a4311ee9a0eb",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "d25523bba5c868ce619a7cbf03cea48d.cnmt.nca",
+   "size": 3584,
+   "sha256": "d25523bba5c868ce619a7cbf03cea48d35083bf326510919b68447f26c632f79",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "d303c671991ee861783faf6898addfe6.cnmt.nca",
+   "size": 3584,
+   "sha256": "d303c671991ee861783faf6898addfe6140dcbe5adfe5d5a5f2cc9aa6f5a6b1e",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "d43802ae368a813b7f94d4c142ed5785.nca",
+   "size": 19617280,
+   "sha256": "d43802ae368a813b7f94d4c142ed578514ed7518d2a8db838981d3281a8f531f",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "d57037150094dd02694e8b9906c7d67d.cnmt.nca",
+   "size": 3584,
+   "sha256": "d57037150094dd02694e8b9906c7d67d97f6d0c489d3b0ae0628870ab065b393",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "d6187cc0d147902843045c7772a131fd.cnmt.nca",
+   "size": 3584,
+   "sha256": "d6187cc0d147902843045c7772a131fd8a95573be4b60473caebd73c223b9685",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "d6dce3a8bd63b2c182b9991fdf40fa6e.nca",
+   "size": 4033536,
+   "sha256": "d6dce3a8bd63b2c182b9991fdf40fa6e2b26f940d8266dcf5aa328cee652f5a6",
+   "release": "fw-22.0.0"
+  },
+  {
+   "name": "d6e5634ac6eccf56691c301140075bda.cnmt.nca",
+   "size": 3584,
+   "sha256": "d6e5634ac6eccf56691c301140075bdad222c8997180d58ccb442d881c960e3f",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "d6e7f11f3e0239f759c2b1f4869d4e49.nca",
+   "size": 101888,
+   "sha256": "d6e7f11f3e0239f759c2b1f4869d4e4991cbb9be97074520f835ddff2be92f08",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "d873a3dea728a4fbb380d5428e7147f6.nca",
+   "size": 289280,
+   "sha256": "d873a3dea728a4fbb380d5428e7147f65f9e1bd60604443709c8db9c89dc27a2",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "d8f51e62cff86186d9ab3a4f9c4921ad.nca",
+   "size": 556032,
+   "sha256": "d8f51e62cff86186d9ab3a4f9c4921ad7cc4053eccabc17a1c974e12ee0835cb",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "da6ae627428f5fe36e26aafa833515a8.nca",
+   "size": 3376640,
+   "sha256": "da6ae627428f5fe36e26aafa833515a892fff085bbf682f560fba95432ddfbf0",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "da78855be31285e66b2f16e0dd7606f8.cnmt.nca",
+   "size": 3584,
+   "sha256": "da78855be31285e66b2f16e0dd7606f865622a143ed510e4650abda7a4f2cadb",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "db554e9842313288a5b18f51c816e86d.cnmt.nca",
+   "size": 3584,
+   "sha256": "db554e9842313288a5b18f51c816e86ddb0b7256094a06c4c2ad134fd72ae045",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "dc46b03817d78b7d9fbd82ea59533501.cnmt.nca",
+   "size": 3584,
+   "sha256": "dc46b03817d78b7d9fbd82ea595335018073cd5148563d6c176d28c35ee02929",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "dc52422918276f38dad48e3ff2ff9c28.nca",
+   "size": 116224,
+   "sha256": "dc52422918276f38dad48e3ff2ff9c28989304833c999ca73ff902bec2fd7bf6",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "dcaa83353918ca082038b1e793630d4e.cnmt.nca",
+   "size": 3584,
+   "sha256": "dcaa83353918ca082038b1e793630d4e0d48d669e8555344e85bcb043a503b84",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "dcd587b5ace675d71181fd8be52ba616.cnmt.nca",
+   "size": 3584,
+   "sha256": "dcd587b5ace675d71181fd8be52ba6162fad9b3238f54cf771614faf3b300b57",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "de06479df858e376df0d2388e73d97c4.cnmt.nca",
+   "size": 3584,
+   "sha256": "de06479df858e376df0d2388e73d97c474495e6543b08e875ad79959e837fe19",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "e1d532a45a06cdf09e522366de77e2ea.cnmt.nca",
+   "size": 3584,
+   "sha256": "e1d532a45a06cdf09e522366de77e2eaec1cb79bd4ed23670115162a725ba428",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "e2810411e2b04af67b99c0ea859f9dad.nca",
+   "size": 7122432,
+   "sha256": "e2810411e2b04af67b99c0ea859f9dada90e38031d0d827119b4ac880c6c2aae",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "e3820683d2dd1957c133ade91be3613f.nca",
+   "size": 145408,
+   "sha256": "e3820683d2dd1957c133ade91be3613f667abc5740dfa6a50c37ae60130d3e0d",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "e43180618178feaab1d403ea2080e253.nca",
+   "size": 4244992,
+   "sha256": "e43180618178feaab1d403ea2080e253ac43023d465b9be29ddb573118cf41d2",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "e45f3f977092659c79e69562cd029efd.nca",
+   "size": 300544,
+   "sha256": "e45f3f977092659c79e69562cd029efd3f2c7615b347a7e392bb82833b00e5be",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "e481ece5d922f9a3776493f891fa0ef9.cnmt.nca",
+   "size": 3584,
+   "sha256": "e481ece5d922f9a3776493f891fa0ef98b332733685d64abc881b085f4562b0e",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "e8882faa4633ee08f7edf0b65a67f40b.nca",
+   "size": 4864512,
+   "sha256": "e8882faa4633ee08f7edf0b65a67f40b5efc805b2ff2480e6372c84aaefd48ac",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "e88f318ed500d87379380d6cafa1ddbe.cnmt.nca",
+   "size": 3584,
+   "sha256": "e88f318ed500d87379380d6cafa1ddbe5bb2beb618af78e701faac5dbaa1dfcf",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "e88fb69dfbd4e8caefa663a4490766a4.cnmt.nca",
+   "size": 3584,
+   "sha256": "e88fb69dfbd4e8caefa663a4490766a489ae83323526102512150a3ff95f5214",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "ea8593a2d495ee66b6f49ea48c5ad259.cnmt.nca",
+   "size": 3584,
+   "sha256": "ea8593a2d495ee66b6f49ea48c5ad259ce0797c0cc88496b40f8560db9583a0f",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "ece1d88b4660c817d56183a515372a48.cnmt.nca",
+   "size": 3584,
+   "sha256": "ece1d88b4660c817d56183a515372a486514dc38a66d8173e260c384b3daa5a8",
+   "release": "fw-10.0.0"
+  },
+  {
+   "name": "f1eaafc03f5666c5349594531d7db399.cnmt.nca",
+   "size": 3584,
+   "sha256": "f1eaafc03f5666c5349594531d7db399c42db93a538852c4b82f83bde27c22d6",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "f1ec0219c175cc3d9b851a397e13f9cb.cnmt.nca",
+   "size": 3584,
+   "sha256": "f1ec0219c175cc3d9b851a397e13f9cb2cbcf31f3c1b5a9ea2f926c4d147f142",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "f422ddead1fdfbc189d33b8d7dd046f8.cnmt.nca",
+   "size": 3584,
+   "sha256": "f422ddead1fdfbc189d33b8d7dd046f80a57a14463e76c6a6c2c933e8fca4eaf",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "f4abad8232f8f23c34016fdd7f890132.cnmt.nca",
+   "size": 3584,
+   "sha256": "f4abad8232f8f23c34016fdd7f8901325aba44d0e926311cf7f1605dec5d8de6",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "f5718a5ad728bb81fe664e11aa41090e.cnmt.nca",
+   "size": 3584,
+   "sha256": "f5718a5ad728bb81fe664e11aa41090ec3a1bf278a16235ee92ab1af023d36ff",
+   "release": "fw-16.1.0"
+  },
+  {
+   "name": "f58d34633f85c93ccf0eef4d28aa8038.nca",
+   "size": 546304,
+   "sha256": "f58d34633f85c93ccf0eef4d28aa80382a2ad11f9b8d752a6d4881c41ff0dbe5",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "f7f085ef0f48225e75ebfac689d68158.cnmt.nca",
+   "size": 3584,
+   "sha256": "f7f085ef0f48225e75ebfac689d68158e6340b386bc0ca816c357f4336761c58",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "f810431b7aadaeb135c378e499f0873d.nca",
+   "size": 224768,
+   "sha256": "f810431b7aadaeb135c378e499f0873de7514f1cc48b74b423967b1285c1ee42",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "f8489e2a9d97538116d76185a59e0cf0.nca",
+   "size": 316928,
+   "sha256": "f8489e2a9d97538116d76185a59e0cf0ed2a47bbf5efd557c2fbb8eac603882e",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "f89ba1c512389dd5ffa9b95fa83264cf.cnmt.nca",
+   "size": 3584,
+   "sha256": "f89ba1c512389dd5ffa9b95fa83264cff8283243c944630b97025d969eb2646e",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "fa402dbad86f1e30c43b10631f09aa7a.nca",
+   "size": 3957248,
+   "sha256": "fa402dbad86f1e30c43b10631f09aa7abd13f23147063f2ad5a28115202c2c90",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "fad78a11d5713a9ad7dd76c99f0aaaae.nca",
+   "size": 256512,
+   "sha256": "fad78a11d5713a9ad7dd76c99f0aaaae9d41274df3b54d11af075ad62c73b521",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "fbf0305a6f45a2005cfa2fafb92814ae.nca",
+   "size": 189952,
+   "sha256": "fbf0305a6f45a2005cfa2fafb92814aed2174b78d3c80be13967088937eadeae",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "fe9bef6a51181d77b816adc7ac11135b.nca",
+   "size": 161792,
+   "sha256": "fe9bef6a51181d77b816adc7ac11135bbf2dc5b4e1af972e0b0fca657e549672",
+   "release": "fw-23.0.0"
+  },
+  {
+   "name": "feff67c18c16d6ab46a42dc205a6b874.cnmt.nca",
+   "size": 3584,
+   "sha256": "feff67c18c16d6ab46a42dc205a6b8740e1639e4fa6031a4d6ec18796aca2d9b",
+   "release": "fw-23.5.0"
+  },
+  {
+   "name": "ff0ae1d0707ab9a9b25f5d2ec4232099.cnmt.nca",
+   "size": 3584,
+   "sha256": "ff0ae1d0707ab9a9b25f5d2ec42320991facefd8951723b9980ad4434774b2cd",
+   "release": "fw-23.5.0"
+  }
+ ]
+}
